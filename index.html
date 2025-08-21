@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Avoyolk Capital LLC — Proprietary Trading</title>
+  <meta name="description" content="Avoyolk Capital LLC is a California-based proprietary trading firm focused on disciplined, intraday long/short equity strategies." />
+  <!-- IMPORTANT: If you later operate under Rule 506(c) (general solicitation), you may remove the noindex tag below. For 506(b), keep it. -->
+  <meta name="robots" content="noindex, nofollow" />
+  <style>
+    :root {
+      --bg: #0b0d10;
+      --panel: #12161b;
+      --text: #e6eaf0;
+      --muted: #9aa4b2;
+      --accent: #6ee7b7; /* teal */
+      --accent-2: #93c5fd; /* blue */
+      --danger: #f87171; /* red */
+      --maxw: 980px;
+      --radius: 16px;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+    @media (prefers-color-scheme: light) {
+      :root { --bg:#f8fafc; --panel:#ffffff; --text:#0b0d10; --muted:#4b5563; --shadow:0 8px 24px rgba(0,0,0,.08); }
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background: radial-gradient(1200px 600px at 80% -10%, rgba(109, 40, 217,.12), transparent 60%), var(--bg);
+      color: var(--text);
+    }
+    a { color: inherit; }
+    .wrap { max-width: var(--maxw); margin: 0 auto; padding: 28px 20px 80px; }
+    header {
+      display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 28px;
+    }
+    .brand { display: flex; align-items: center; gap: 12px; font-weight: 700; letter-spacing: .3px; }
+    .logo { width: 34px; height: 34px; border-radius: 10px; background: linear-gradient(135deg, var(--accent), var(--accent-2)); box-shadow: var(--shadow); }
+    .btn { display: inline-flex; align-items: center; gap: 10px; padding: 10px 16px; border-radius: 999px; border: 1px solid rgba(255,255,255,.06); background: #ffffff0d; color: var(--text); text-decoration: none; transition: .2s transform, .2s opacity; }
+    .btn:hover { transform: translateY(-1px); opacity: .95; }
+
+    .hero { background: linear-gradient(180deg, rgba(147,197,253,.12), transparent 40%), var(--panel); border: 1px solid rgba(255,255,255,.06); border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow); }
+    .hero h1 { margin: 0 0 10px; font-size: clamp(28px, 4vw, 38px); line-height: 1.12; }
+    .hero p { margin: 0; color: var(--muted); font-size: 16px; }
+
+    .chips { display:flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+    .chip { font-size: 12px; padding: 6px 10px; border-radius: 999px; border:1px solid rgba(255,255,255,.08); background:#ffffff10; color:var(--text); }
+
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; margin-top: 22px; }
+    .card { grid-column: span 12; background: var(--panel); border:1px solid rgba(255,255,255,.06); border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow); }
+    .card h3 { margin-top: 0; font-size: 18px; }
+    .card p { color: var(--muted); margin-bottom: 0; }
+    @media (min-width: 760px) { .card.half { grid-column: span 6; } }
+
+    .disclaimer { border-left: 4px solid var(--danger); padding: 12px 14px; background: linear-gradient(90deg, rgba(248,113,113,.08), transparent); font-size: 13px; color: var(--muted); }
+    footer { margin-top: 32px; display: grid; gap: 8px; place-items: center; font-size: 13px; color: var(--muted); }
+    .divider { height: 1px; background: rgba(255,255,255,.08); margin: 24px 0; }
+
+    .mailto-btn { background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #0b0d10; border: none; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand" aria-label="Avoyolk Capital LLC">
+        <div class="logo" aria-hidden="true"></div>
+        <span>Avoyolk Capital LLC</span>
+      </div>
+      <a class="btn mailto-btn" href="mailto:invest@avoyolk.us?subject=Avoyolk%20Capital%20Inquiry&body=Name%3A%0AEmail%3A%0APhone%3A%0AAccredited%20Investor%3A%20Yes%2FNo%0AHow%20did%20you%20hear%20about%20us%3A%0A" aria-label="Contact Avoyolk Capital">Request Info</a>
+    </header>
+
+    <section class="hero" role="region" aria-label="Overview">
+      <h1>Focused, disciplined proprietary trading.</h1>
+      <p>California-based firm executing an intraday long/short equity strategy with strict risk controls and no overnight positions.</p>
+      <div class="chips" aria-hidden="true">
+        <span class="chip">Intraday only</span>
+        <span class="chip">Long/Short Equity</span>
+        <span class="chip">Risk-first approach</span>
+        <span class="chip">Operational transparency</span>
+      </div>
+    </section>
+
+    <div class="grid">
+      <article class="card half" aria-label="Approach">
+        <h3>Approach</h3>
+        <p>Single-name, high-liquidity focus with one high-conviction trade per day when conditions align. Position sizing, hard stops, and defined daily loss limits are built into execution.</p>
+      </article>
+
+      <article class="card half" aria-label="Operations">
+        <h3>Operations</h3>
+        <p>Separate banking and brokerage, formal trade journaling, and monthly reporting. Compliance-first posture; capital is never commingled with non-business activity.</p>
+      </article>
+
+      <article class="card" aria-label="For Accredited Investors">
+        <h3>For Accredited Investors</h3>
+        <p>If you are a <em>U.S. accredited investor</em> with a pre-existing relationship and would like information about private offerings, email <a href="mailto:invest@avoyolk.us">invest@avoyolk.us</a>. Detailed terms are provided only through official subscription documents.</p>
+      </article>
+
+      <article class="card" aria-label="Important Information">
+        <h3>Important Information</h3>
+        <div class="disclaimer">
+          <p><strong>Disclaimer:</strong> This website is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any security. Any offering will be made only to qualified investors by confidential documents and in compliance with applicable laws. Investing involves risk, including the potential loss of all capital. Past performance is not indicative of future results.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="divider" role="separator" aria-hidden="true"></div>
+
+    <footer>
+      <div>© <span id="y"></span> Avoyolk Capital LLC • All rights reserved</div>
+      <div><a href="mailto:invest@avoyolk.us">invest@avoyolk.us</a></div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
